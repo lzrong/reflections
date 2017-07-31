@@ -5,13 +5,15 @@ local?
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-
-    Fill in your answer here
+    When you are working locally, the unexpected automatic pull changes would interapted your working, causing unnecessary trouble. 
+    
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-
-    Fill in your answer here
+    Forks: only happens on github, copy other's reposiroty into your own repository.
+    Clone: can be doen locally or on github.
+    Branches: explore new feather or try something different from current commit point.
+    
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
