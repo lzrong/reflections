@@ -11,14 +11,35 @@ It gives more flexibility before making commits.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+Use "git diff" to compare working directory and staging area.
+Use "git diff --staged" to compare staging area and repository.
+
+
 
 What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+organized? 
+When you are trying something new from master branch.
+How would branches help?
+You can checkout any branch any time when needed.
+
+
 
 How do the diagrams help you visualize the branch structure?
+Know each commit and its parent's commit, also you can track back to the initial commit from certain commit.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+
+
+What is the result of merging two branches together? 
+They merged into the current branches.
+Why do we represent it in the diagram the way we do?
+Easy to check out the records of merging history.
+
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+pros: make codes tidy and easy to track
+cons: easy to cause merge conflicts which could have been avoid by merging manually. 
+
+
+
